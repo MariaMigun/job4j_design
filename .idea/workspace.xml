@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f86453-36af-4c8a-b562-e93cd8cdfa32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/assertj/NameLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/job4j/assertj/NameLoadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/assertj/BoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/job4j/assertj/BoxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/job4j/assertj/BoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/job4j/assertj/BoxTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,9 +33,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
-  <component name="RunManager" selected="JUnit.BoxTest.isExists2">
-    <configuration name="BoxTest.getNumVert2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.job4j.assertj" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NameLoadTest.checkNoKey">
+    <configuration name="NameLoadTest.checkNoKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -36,14 +54,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.BoxTest" />
-      <option name="METHOD_NAME" value="getNumVert2" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
+      <option name="METHOD_NAME" value="checkNoKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxTest.getarea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameLoadTest.checkNoSymbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -52,14 +70,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.BoxTest" />
-      <option name="METHOD_NAME" value="getarea" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
+      <option name="METHOD_NAME" value="checkNoSymbols" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxTest.getarea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameLoadTest.checkNoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -68,14 +86,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.BoxTest" />
-      <option name="METHOD_NAME" value="getarea2" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
+      <option name="METHOD_NAME" value="checkNoValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxTest.isExists2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameLoadTest.checkParseIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.BoxTest" />
-      <option name="METHOD_NAME" value="isExists2" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
+      <option name="METHOD_NAME" value="checkParseIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxTest.isThisCube" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameLoadTest.checkValidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +118,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.BoxTest" />
-      <option name="METHOD_NAME" value="isThisCube" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
+      <option name="METHOD_NAME" value="checkValidate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoxTest.isExists2" />
-        <item itemvalue="JUnit.BoxTest.getNumVert2" />
-        <item itemvalue="JUnit.BoxTest.isThisCube" />
-        <item itemvalue="JUnit.BoxTest.getarea2" />
-        <item itemvalue="JUnit.BoxTest.getarea" />
+        <item itemvalue="JUnit.NameLoadTest.checkNoKey" />
+        <item itemvalue="JUnit.NameLoadTest.checkNoValues" />
+        <item itemvalue="JUnit.NameLoadTest.checkNoSymbols" />
+        <item itemvalue="JUnit.NameLoadTest.checkValidate" />
+        <item itemvalue="JUnit.NameLoadTest.checkParseIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -133,11 +151,19 @@
       <option name="project" value="LOCAL" />
       <updated>1701174041427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Box">
+      <created>1701176808824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701176808824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="job4jDesign creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="job4jDesign creation" />
+    <MESSAGE value="Box" />
+    <option name="LAST_COMMIT_MESSAGE" value="Box" />
   </component>
 </project>
