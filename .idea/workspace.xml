@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f86453-36af-4c8a-b562-e93cd8cdfa32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/assertj/NameLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/job4j/assertj/NameLoadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/assertj/SimpleConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/job4j/assertj/SimpleConvertTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       <recent name="ru.job4j.assertj" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NameLoadTest.checkNoKey">
+  <component name="RunManager" selected="JUnit.SimpleConvertTest.assertMap">
     <configuration name="NameLoadTest.checkNoKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
@@ -61,7 +61,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameLoadTest.checkNoSymbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleConvertTest.assertMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -70,14 +70,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
-      <option name="METHOD_NAME" value="checkNoSymbols" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.SimpleConvertTest" />
+      <option name="METHOD_NAME" value="assertMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameLoadTest.checkNoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleConvertTest.checkArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -86,14 +86,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
-      <option name="METHOD_NAME" value="checkNoValues" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.SimpleConvertTest" />
+      <option name="METHOD_NAME" value="checkArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameLoadTest.checkParseIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleConvertTest.checkList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
-      <option name="METHOD_NAME" value="checkParseIsEmpty" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.SimpleConvertTest" />
+      <option name="METHOD_NAME" value="checkList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameLoadTest.checkValidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleConvertTest.checkSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="job4j_design" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +118,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.assertj" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.NameLoadTest" />
-      <option name="METHOD_NAME" value="checkValidate" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.assertj.SimpleConvertTest" />
+      <option name="METHOD_NAME" value="checkSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleConvertTest.assertMap" />
+        <item itemvalue="JUnit.SimpleConvertTest.checkSet" />
+        <item itemvalue="JUnit.SimpleConvertTest.checkList" />
+        <item itemvalue="JUnit.SimpleConvertTest.checkArray" />
         <item itemvalue="JUnit.NameLoadTest.checkNoKey" />
-        <item itemvalue="JUnit.NameLoadTest.checkNoValues" />
-        <item itemvalue="JUnit.NameLoadTest.checkNoSymbols" />
-        <item itemvalue="JUnit.NameLoadTest.checkValidate" />
-        <item itemvalue="JUnit.NameLoadTest.checkParseIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -158,12 +158,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701176808824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="NameLoad">
+      <created>1701179962678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701179962678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="job4jDesign creation" />
     <MESSAGE value="Box" />
-    <option name="LAST_COMMIT_MESSAGE" value="Box" />
+    <MESSAGE value="NameLoad" />
+    <option name="LAST_COMMIT_MESSAGE" value="NameLoad" />
   </component>
 </project>
