@@ -4,6 +4,7 @@ MAVEN
 AssertJ
 Iterator
   итератор двумерного массива
+  итератор четных чисел
 Generic
 List
 Set
