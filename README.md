@@ -3,6 +3,7 @@
 MAVEN
 AssertJ
 Iterator
+  итератор двумерного массива
 Generic
 List
 Set
