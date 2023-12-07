@@ -5,6 +5,7 @@ AssertJ
 Iterator
   итератор двумерного массива
   итератор четных чисел
+  FlatMap для iterator
 Generic
 List
 Set
