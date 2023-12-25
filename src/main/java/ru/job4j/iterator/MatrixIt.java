@@ -25,12 +25,12 @@ public class MatrixIt implements Iterator<Integer> {
         if (!hasNext()) {
             throw new NoSuchElementException();
         }
-        int res = data[row][column++];
-        System.out.println(res);
+        int rsl = data[row][column++];
+        System.out.println(rsl);
         if (column == data[row].length) {
             row++;
             column = 0;
         }
-        return res;
+        return rsl;
     }
 }
