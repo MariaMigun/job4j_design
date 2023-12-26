@@ -28,7 +28,7 @@ public class NonNullIterator implements Iterator<Integer> {
     }
 
     public Integer findNotNull() {
-        for (int i = pos + 1;i < data.length; i++) {
+        for (int i = pos + 1; i < data.length; i++) {
             if (data[i] != null) {
                 nextPos = i;
                 break;
