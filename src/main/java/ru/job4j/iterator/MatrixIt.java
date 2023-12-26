@@ -6,6 +6,7 @@ import java.util.NoSuchElementException;
 public class MatrixIt implements Iterator<Integer> {
     private final int[][] data;
     private int row;
+
     private int column;
 
     public MatrixIt(int[][] data) {
