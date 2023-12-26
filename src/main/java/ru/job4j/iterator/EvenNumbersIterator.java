@@ -19,7 +19,7 @@ public class EvenNumbersIterator implements Iterator<Integer> {
     @Override
     public boolean hasNext() {
         boolean res = false;
-        while (ind < data.length ) {
+        while (ind < data.length) {
             if (data[ind] % 2 == 0) {
                 res = true;
                 break;
