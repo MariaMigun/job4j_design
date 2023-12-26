@@ -14,6 +14,7 @@ public class EvenNumbersIterator implements Iterator<Integer> {
         this.data = data;
     }
 /*iterator.next() - возвращают только четные числа. В этом примере - это 4 и 2.*/
+
     @Override
     public boolean hasNext() {
         return pos != findEven();
