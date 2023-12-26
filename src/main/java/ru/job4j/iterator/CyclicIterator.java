@@ -25,9 +25,8 @@ public class CyclicIterator<T> implements Iterator<T> {
     public T next() {
         if (!hasNext()) {
             return data.get(1);
-        /*    throw new NoSuchElementException();*/
-        }
-        else {
+            /*    throw new NoSuchElementException();*/
+        } else {
             return data.iterator().next();
         }
     }
