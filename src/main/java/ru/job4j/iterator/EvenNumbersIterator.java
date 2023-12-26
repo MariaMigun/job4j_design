@@ -29,7 +29,7 @@ public class EvenNumbersIterator implements Iterator<Integer> {
     }
 
     public Integer findEven() {
-        for (int i = pos + 1;i < data.length; i++) {
+        for (int i = pos + 1; i < data.length; i++) {
             if (data[i] % 2 == 0) {
                 nextPos = i;
                 break;
